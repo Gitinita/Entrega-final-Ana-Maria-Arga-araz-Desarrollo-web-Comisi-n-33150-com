@@ -1,0 +1,44 @@
+$color-fondo: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);
+
+$color-frases: red;
+
+$color-letras: white;
+
+$font-frases: x-large;
+
+body {
+    background-image: $color-fondo;
+}
+
+#container{
+    
+    background-color: $color-fondo;
+}
+
+.nav navbar navbar-expand-lgbg-body-tertiary{
+    background-color: $color-fondo;
+}
+
+.texto{
+    background-color: $color-frases;
+    color: $color-letras;
+    font-size: $font-frases;
+}
+
+.texto2{
+    background-color: blue;
+    color: $color-letras;
+    font-size: $font-frases;
+}
+
+.animacion{
+    position:relative;
+    animation: animacion 10s infinite;   
+    margin-top: 30px;
+    margin-right: 100%;
+}
+
+@keyframes animacion{
+    0%{left: 0px;}
+    50%{left:200px;}
+}
