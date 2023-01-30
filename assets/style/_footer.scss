@@ -1,0 +1,7 @@
+@use "_commons" as c;
+
+footer p{
+
+    color: map-get(c.$colores,"textos");
+    font-size:x-small;
+}

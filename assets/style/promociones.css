@@ -1,0 +1,51 @@
+body{
+    background-image:linear-gradient(to right, #DDEFBB, #FFEEEE);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+
+    height: 60px;
+}
+
+img{
+
+width: 100%;
+
+}
+
+#container{
+    
+    background-color: white;  
+    padding: 1%;
+   
+}
+
+footer p{
+
+    color: black;
+    font-size:x-small;
+}
+
+@media only screen and (min-width: 768px) {
+
+    header{
+
+        height: 130px;
+    }
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+    header{
+
+        height: 220px;
+    }
+
+    .promo3{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
